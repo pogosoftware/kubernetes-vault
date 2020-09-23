@@ -1,0 +1,8 @@
+global:
+  enabled: true
+
+injector:
+  enabled: true
+  externalVaultAddr: "http://192.168.33.11:8200"
+  authPath: "auth/kubernetes"
+  revokeOnShutdown: true

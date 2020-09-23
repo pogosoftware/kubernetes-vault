@@ -1,0 +1,13 @@
+---
+
+kubernetes:
+  hostname: kubernetes.vagrant.local
+  ip: 192.168.33.10
+  cpus: 2
+  memory: 4096
+
+vault:
+  hostname: vault.vagrant.local
+  ip: 192.168.33.11
+  cpus: 1
+  memory: 1024

@@ -1,0 +1,14 @@
+repositories:
+  - name: hashicorp
+    url: https://helm.releases.hashicorp.com
+
+helmDefaults:
+  tillerless: true
+
+releases:
+  - name: vault
+    namespace: kube-public
+    chart: hashicorp/vault
+    version: 0.7.0
+    values:
+      - vault.yaml
